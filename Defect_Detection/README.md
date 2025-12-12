@@ -1,6 +1,6 @@
 # Industrial Defect Detection System
 
-## Deployed at : https://defectapp.streamlit.app/
+## Deployed at : https://defect11.streamlit.app/
 
 This project implements an automated visual inspection tool leveraging Deep Learning to detect manufacturing defects. The system utilizes a Convolutional Neural Network (CNN) to classify images with **98.95% accuracy**, demonstrating the application of computer vision in quality control automation.
 
