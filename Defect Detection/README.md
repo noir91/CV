@@ -34,15 +34,18 @@ The application adopts a microservices-oriented architecture to decouple the use
 ### Performance & Analysis
 
 The model was trained with an early stopping mechanism to prevent overfitting. Training was halted automatically when validation loss ceased to improve.
- Training Results
 
-    Test Set Accuracy: 98.95%
+![Model Training Logs](image.png)
 
-    Best Validation Loss: 0.0284 (Achieved at Epoch 4)
+### Training Results
 
-    Stopping Condition: Early stopping triggered at Epoch 6.
+* **Test Set Accuracy:** 98.95%
+* **Best Validation Loss:** 0.0284 (Achieved at Epoch 4)
+* **Stopping Condition:** Early stopping triggered at Epoch 6.
 
 ### Visual Analysis
+
+![Training Curves](models/training_curves.png)
 
 1. Loss Curve (Left) The training loss demonstrates a consistent downward trend, indicating effective learning. The validation loss decreases sharply until Epoch 4 (~0.028), which represents the model's peak generalization point. Subsequent epochs show a plateau in validation loss, justifying the decision to trigger early stopping at Epoch 6 to maintain model robustness.
 
