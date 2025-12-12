@@ -58,17 +58,21 @@ pip install -r requirements.txt
 2. Execution
 
 The system requires both the backend and frontend services to be active. Run the following commands in separate terminals:
-
+```plaintext
 Terminal 1 (Backend Service)
 Bash
 
 python api.py
+```
+
 ##### The API will initialize at [http://0.0.0.0:8000](http://0.0.0.0:8000)
 
+```plaintext
 Terminal 2 (Frontend Interface)
 Bash
 
 streamlit run app.py
+```
 ##### Access the interface via the URL provided (typically http://localhost:8501)
 
 Technology Stack
