@@ -47,7 +47,7 @@ The model was trained with an early stopping mechanism to prevent overfitting. T
 
 ### Visual Analysis
 
-![Training Curves](models/training_curves.png)
+![Training Curves](training_curves.png)
 
 1. Loss Curve (Left) The training loss demonstrates a consistent downward trend, indicating effective learning. The validation loss decreases sharply until Epoch 4 (~0.028), which represents the model's peak generalization point. Subsequent epochs show a plateau in validation loss, justifying the decision to trigger early stopping at Epoch 6 to maintain model robustness.
 

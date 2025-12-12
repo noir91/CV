@@ -35,7 +35,7 @@ class Config:
     DENSE_LAYERS = 128
     
     # Logging
-    SAVE_DIR = "models"
+    SAVE_DIR = ""
     MODEL_NAME = "best_model.pt"
 
 # --- Reproducibility ---
