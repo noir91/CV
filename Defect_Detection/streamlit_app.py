@@ -44,7 +44,7 @@ class CNN(nn.Module):
         return x
 
 # --- 2. Configuration & Caching ---
-MODEL_PATH = "models/best_model.pt" # Ensure this file is in your GitHub Repo root!
+MODEL_PATH = "best_model.pt" # Ensure this file is in your GitHub Repo root!
 DEVICE = torch.device('cpu') # Cloud free tiers usually don't have GPU, force CPU
 
 @st.cache_resource
